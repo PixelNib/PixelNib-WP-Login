@@ -33,7 +33,7 @@ function pixelnib_login_logo_title() {
     return 'PixelNib';
 }
 
-add_action ('login_headertitle', 'pixelnib_login_logo_title');
+add_action ('login_headertext', 'pixelnib_login_logo_title');
 
 // Change login URL
 function pixelnib_login_log_url() {
