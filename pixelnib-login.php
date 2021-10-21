@@ -51,7 +51,7 @@ add_action ('gettext', 'pixelnib_username');
 
 // Add Message
 function pixelnib_login_message ($head_message) {
-    $head_message = "<div class='header-text'><h4>Welcome to your website!</h4><p>Use your crdentials to access your website</p></div>";
+    $head_message = "<div class='header-text'><h4>Welcome to your website!</h4><p>Use your crdentials to access the website</p></div>";
     return $head_message;
 }
 
